@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 15 Aug 2020, 18:28:12
+    Author     : tom
+*/
+
+#account_list .account_list_tbl {
+    background-color: #e4e4e4;
+    border-collapse: collapse;
+    border: 1px solid black;
+    width: 50%;
+}
+
+#account_list .account_list_tbl thead th {
+    background-color: #aac2e8;
+    color: white;
+}
+
+#account_list .account_list_tbl tbody tr:hover {
+    background: lightblue;
+    opacity: 50%;
+    cursor: pointer;
+}
+
+#account_list .account_list_tbl td {
+    border: 1px solid black;
+    text-align: center;
+}
